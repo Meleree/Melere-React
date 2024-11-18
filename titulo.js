@@ -28,13 +28,18 @@ const titulo = (div, toggleCarrito) => {
   logoContainer.style.left = '50%'; 
   logoContainer.style.transform = 'translateX(-50%)'; 
 
+  const logoLink = document.createElement('a');
+  logoLink.href = 'index.html';
+
   const logo = document.createElement('img');
   logo.src = './assets/melere.webp';
   logo.alt = 'Logo de la tienda';
   logo.height = 17;  
   logo.width = 100;
 
-  logoContainer.appendChild(logo);
+  logoLink.appendChild(logo);
+
+  logoContainer.appendChild(logoLink);
 
   const carritoButton = document.createElement('button');
   carritoButton.type = 'button';
