@@ -93,3 +93,38 @@ body {
     margin-top: 5px;
   }
   
+  .resumen-carrito {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  .resumen-carrito ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resumen-carrito li {
+    margin-bottom: 10px;
+  }
+  
+  .resumen-carrito button {
+    background-color: #6c0ea6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .resumen-carrito button:hover {
+    background-color: #5a0a91;
+  }
+  
